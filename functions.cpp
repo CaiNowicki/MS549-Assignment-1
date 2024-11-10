@@ -17,7 +17,7 @@ int multiplication(int a, int b) {
 double division(double a, double b) {
 	if (b == 0) {
 		cerr << "Error: Division by 0 is undefined" << endl;
-		showMenu();
+		return NAN;
 	}
 	return a / b;
 }
